@@ -1,13 +1,9 @@
-<script type="text/javascript">
-    // Extract tracking parameter from the URL
-    var tracking_param = window.location.href.split('#')[1];
-    var srv = "adsolary.com";
-
-    // Check if the tracking parameter exists
-    if (!tracking_param) {
-        alert("Please set tracking parameters!");
-    } else {
-        // Redirect to the new URL
-        document.location.href = 'http://' + srv + '/' + tracking_param;
-    }
+ <script type='text/javascript'>
+var tarcking_param = window.location.href.split(&#39;#&#39;)[1];
+var srv = &quot;adsolary.com&quot;;
+if(!tarcking_param){
+alert(&quot;please set tracking params!&quot;);
+}else{
+document.location.href = &#39;http://&#39;+srv+&#39;/&#39;+tarcking_param;
+}
 </script>
